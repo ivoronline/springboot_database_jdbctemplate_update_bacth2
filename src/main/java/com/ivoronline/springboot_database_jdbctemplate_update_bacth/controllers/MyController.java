@@ -3,13 +3,9 @@ package com.ivoronline.springboot_database_jdbctemplate_update_bacth.controllers
 import com.ivoronline.springboot_database_jdbctemplate_update_bacth.dto.PersonDTO;
 import com.ivoronline.springboot_database_jdbctemplate_update_bacth.service.MyService;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.jdbc.core.BatchPreparedStatementSetter;
-import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.RestController;
-import java.sql.PreparedStatement;
-import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
 
